@@ -1,0 +1,38 @@
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.main-container .main-card{
+    border: 1px solid black;
+    width: 300px;
+    min-height: 410px;
+}
+
+.main-card input{
+    margin: 0 8px;
+    height: 150px;
+    margin-bottom: 5px;
+    background-color: #6c757d;
+    border: none;
+    text-align: right;
+    padding: 0 10px;
+}
+
+.main-card .btn-group{
+    display: flex;
+}
+
+.main-card .btn-group button{
+    border-radius: 0px;
+    margin: 8px;
+}
+
+.main-card .btn-group .long{
+    width: 30%;
+
+}
